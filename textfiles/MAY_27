@@ -1,0 +1,58 @@
+1. Download any Python 3
+ https://www.python.org/downloads/
+
+2. Follow the installation Wizard windows 
+
+3. To check whether Python is installed or not type the following command in CMD
+	python --version
+
+4. Before checking the version  add the Python installation floder path in the SYSTEM ENV variables.
+
+
+--------------------------
+
+1. Install the Git for windows (source code management)
+2.https://git-scm.com/download/win 
+3.Install the downloaded .exe file
+4. After installation , just type the 
+	git --version
+
+5. And In every floder , you  can able to see two option (GIT BASH , GITG GUI)
+
+
+---------------------------------
+MINI Conda (Jupyter Notebook)
+
+1. Install the mini conda 
+2. https://docs.conda.io/projects/conda/en/latest/user-guide/install/windows.html
+3. Once it is installed , you can able to see the Anaconda Prompt (just like a cmd)
+4. Anacoda prompt is used to launch the jupyter notebook.
+
+
+--------------------------------
+
+Pull the Repo.
+
+1. Go the required Path
+
+2. Open the Git bash
+	git clone <url>
+3. git clone origin https://github.com/anil-k-rajamoni18/Python_Aug.git
+
+4. Every time to get the lastest changes , just do 
+	git pull
+	by going to the ORIGINAL REPO FLODER (where you have cloned)
+
+5. NOTE : Please don't make any changes in the ORIGINAL REPO FLODER . Because you won't get the changes
+	
+
+--------------------------------
+	JUPYTER NOTEBOOK
+1. Go to the your path
+2. Open Anaconda Prompt 
+3. Change the path using (cd <path>)
+4. to open jupyter notebook type : jupyter notebook
+5. It will be opened in the default browser.
+
+
+

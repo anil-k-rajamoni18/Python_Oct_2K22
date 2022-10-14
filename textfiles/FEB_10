@@ -1,0 +1,37 @@
+1. Install the Python  
+
+website : python.org
+
+=> to check the version
+==> Before checking the version  add the Python installation floder path in the  variables.
+>> python --version (windows)
+>> python3 --version
+
+->type python in cmd or bash to enter into the shell , (python3 for MAC)
+-> to come out <exit()>
+
+2.Install Editors (SUBLIME , VSCODE )
+
+3. Anacoda Juypter notebook
+ -> create a practise working directory (mkdir)
+ -> change the path to that diretory (cd /path)
+ -> install the jupyter by this command <conda install jupyter notebook>
+
+ -> to open the jupyter notebook type <jupyter notebook> in cmd or bash
+ ->it will be opened in default browser.
+-> to stop : CNTRL+D or C
+
+
+4. Clone the GitHUB
+  new repo
+-> https://github.com/anil-k-rajamoni18/Python_Session_June.git
+
+5. Pullling the Changes/CODE:
+ -> open the git bash orginal repo floder
+ -> type
+    -> git status
+    -> git pull
+
+
+
+

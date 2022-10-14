@@ -1,0 +1,20 @@
+--------------HOW TO RUN PYTHON IN CMD----------
+
+1. Create a file with .py extension 
+2. Open the CMD in required path 
+3. To execute any python file , just type following command
+	python <filename.py>
+
+---------------------- In Jupyter Notebook ------------
+1. All jupyter notebook files will have .ipynb extension.
+NOTE: you can't execute this files.
+
+2. To open Jupyter notebook 
+	- Open Anaconda Prompt in required path.
+	- type : jupyter notebook
+	- it will open juypter notebook in following path.
+
+---------- WHILE PULLING----
+open the gitbash in the original repo floder (one you have downloaded/cloned)
+1. Always check the git status : it should nothing commit
+2. git pull.
