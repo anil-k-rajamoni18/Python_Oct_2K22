@@ -1,0 +1,4 @@
+Hello Python File IO
+Amazon announced yesterday that Fire TV users in the U.S. 
+can now watch thousands of hours of free, ad-supported content across sports news, 
+cooking, travel, as well as movie and TV trailers from I.
