@@ -1,2 +1,0 @@
-hello world python
-discussing built-in modules
