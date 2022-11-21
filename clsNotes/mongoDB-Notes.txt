@@ -1,0 +1,69 @@
+
+WHATS JSON
+===========
+[{},{},{}]
+
+- Connect to the mongo db server
+	mongod
+	
+- connect to the client
+	mongosh
+	
+	
+- default port localhost://27017
+
+
+
+# connect to mongosh
+
+mongosh "mongodb+srv://cluster0.mitqgvp.mongodb.net/userProfiles" --apiVersion 1 --username Alien --password AlienDB
+
+db.users.createIndex( { username: 1, passwd: 1 }, {unique:true} )
+
+
+
+show dbs
+show collections
+db.collections. all methods
+#methods
+==================
+insertOne()
+insertMany()
+deleteMany()
+deleteOne()
+find()
+findOne()
+
+#Python Methonds
+=============================
+
+insert_one()
+insert_many()
+find()
+find_one()
+update_one()
+update_many()
+replace_one()
+find_one_and_update()
+find_one_and_delete()
+find_one_and_replace()
+count_documents()
+
+
+
+MondoDB USER
+==================
+Alien
+AlienDb
+
+
+
+
+
+IMP:
+=============================
+
+https://www.mongodb.com/
+
+
+https://www.mongodb.com/docs/manual/tutorial/install-mongodb-on-windows/
