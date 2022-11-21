@@ -1,0 +1,62 @@
+STEP1
+===================
+# install pipenv
+pip install pipenv
+
+STEP2
+===================
+# create our project directory and move to it
+mkdir login-flask-project && cd login-flask-project
+
+STEP3
+===================
+# use pipenv to create a Python 3 (--three) virtualenv for our project
+pipenv --three
+
+STEP4
+===================
+# install flask a dependency on our project
+pipenv install flask
+
+STEP5
+===================
+
+# create source code's root
+mkdir loginapp && cd loginapp
+
+STEP6
+===================
+# create an empty __init__.py file
+touch __init__.py
+
+
+STEP7
+===================
+#Inside the main module, let's create a script called index.py. 
+#In this script, we will define the first endpoint of our application.
+
+
+STEP8
+===================
+# move to the root directory
+cd ..
+
+# create the file
+touch bootstrap.sh
+
+# make it executable
+chmod +x bootstrap.sh or bootstrap.bat
+
+
+#!/bin/sh
+set FLASK_APP=./loginapp/index.py
+pipenv run flask --debug run -h 0.0.0.0
+
+STEP9
+===================
+
+run the app 
+
+
+
+WSL2 : Linux Terminal 
