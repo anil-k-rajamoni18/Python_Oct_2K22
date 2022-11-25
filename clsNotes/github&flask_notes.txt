@@ -1,0 +1,99 @@
+1. Create a Repository in GitHUB
+	
+	2. Create a Floder in local-machine with some-name
+	
+	3. Open gitbash inside newly created floder.
+		- created some files 
+	
+	4. Follow the commands.
+	
+		echo "# Git_Practice_Nov" >> README.md
+		git init
+		git add README.md
+		git commit -m "first commit"
+		git branch -M main
+		git remote add origin https://github.com/anil-k-rajamoni18/Git_Practice_Nov.git
+		git push -u origin main
+		
+		
+	### CMD commands
+	
+	dir -- list all the files in current path 
+	
+	mkdir floder-name  ---> create a new floder/dir
+	
+	rmdir flodername ----> delete a dir 
+	
+	cd flodername     ---> change the path 
+	
+	cd .. ----> go to previous path.
+	
+	rm filename ----> remove the file 
+	
+	notepad filename   ---> create a file.
+	
+	
+	touch filename    ----> linux shell..
+	
+	
+	
+	##GIT COMMANDS
+	
+	git init 						---> git initialization (will .git floder) 
+	git status 						----> status of current git floder.(Keep track of all changes)
+	git add . or git add -A 		----> all changes from UNSTAGING => STAGING 
+	
+	git commit -m "message"   		---> STAGING  ---> LOCAL REPOs
+	
+	git remote add origin <url>     ----> linking remote repo url 
+	
+	git push -u origin branch-name   ---> LOCAL REPOSITORY ==> REMOTE REPOSITORY
+	
+	
+ ###FLASK SETUP 
+	
+	- git & github 
+		- cmd & gitbash
+		- pip 
+		
+	##CONCEPTS 
+		- virtualenvs 
+		- functions 
+		- modules & packages 
+		- Class & Objects( decorators)
+		- API's (requests)
+		- WEB (how web works)
+		
+	##STEP_1 : Create a virtual env
+			python -m venv calculator-env
+			
+	##STEP2 : Activate the virtual env.
+				.\nameofenv\Scripts\activate
+	
+	##STEP3: install the modules/packages or libraries.
+				
+				pip install flask requests
+				
+				
+	##STEP 4: create a dir for project
+	
+			mkdir name 
+			
+	###STEP 5: create structure for flask.
+			
+			root-project 
+				- index.py 
+				- templates 
+						- css
+						- js
+				- dbmodule
+				
+				
+				
+				
+	##STEPS TO DEPLOY CODE ON HEROKU CLOUD PLATFORM..
+		step1: Go to https://www.heroku.com/
+				create a free account.
+				
+		
+	
