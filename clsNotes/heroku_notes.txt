@@ -1,0 +1,31 @@
+##HEROKU CLI  INSTALLATION 
+	
+		step1: https://devcenter.heroku.com/articles/heroku-cli#install-the-heroku-cli
+		step2: verify 
+				heroku login
+				heroku --version
+
+
+	##STEPS TO DEPLOY CODE ON HEROKU CLOUD PLATFORM..
+		step1: Go to https://www.heroku.com/
+				create a free account.
+				
+		step2: generate requirements.txt in application floder :  after activating virtual env
+			command : pip freeze > requirements 
+			
+		step3: create a Procfile
+				Procfile 
+				web: gunicorn wsgi:app
+				
+				while saving , select has all types..
+				
+				note: main flask file should be app.y or application.py
+			
+		step4: open git bash Do following commands.
+			
+				heroke app:create <name-of-application>
+				git remote add heroku <url>
+				git push heroku main.
+				
+				heroku open.
+	

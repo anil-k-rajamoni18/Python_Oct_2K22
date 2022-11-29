@@ -45,9 +45,9 @@ def calculator():
     else:
       result = f"invalid symbol {op}"
 
-  result = f"{num1} {op} {num2} = {result}"
+    result = f"{num1} {op} {num2} = {result}"
 
-  return render_template("result.html",response = result)
+    return render_template("result.html",response = result)
 
 
 
@@ -63,4 +63,4 @@ def contact():
 
 
 if __name__ == '__main__':
-  app.run(host='0.0.0.0',port=1133,debug=True)
+  app.run()
