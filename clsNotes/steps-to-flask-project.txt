@@ -1,0 +1,14 @@
+#STEP1: 
+	creating a venv 
+	
+step2: activate and install modules.
+
+step3: project structure
+		app-floder
+			- templates
+			- dbModules
+			- app.py or appplication.py or index.py
+			- requirements.txt
+			
+step4: TO RUN 
+		python app.py
