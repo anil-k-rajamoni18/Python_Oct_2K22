@@ -11,7 +11,7 @@
 				create a free account.
 				
 		step2: generate requirements.txt in application floder :  after activating virtual env
-			command : pip freeze > requirements 
+			command : pip freeze > requirements.txt
 			
 		step3: create a Procfile
 				Procfile 
@@ -28,4 +28,7 @@
 				git push heroku main.
 				
 				heroku open.
-	
+
+
+
+https://calculator-web-app-v2.herokuapp.com/ | https://git.heroku.com/calculator-web-app-v2.git
