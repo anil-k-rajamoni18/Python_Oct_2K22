@@ -40,7 +40,14 @@ def getDrinks():
 
     return {"data":data.inserted_id}
 
-
-
+@app.route("/foods/<id>" ,methods=["DELETE"])
+def deletFoodItem(id):
+  if request.method == "DELETE":
+    data = mycoll.find_one({"_id":int(id)})
+    if data:
+      res = mycoll.delete_one({"_id":int(id)})
+      return {"data": f"deleted record with count {res.deleted_count} {res.acknowledged}"}
+    else:
+      return {"data":"no record with id"}
 if __name__ == '__main__':
   app.run(port='1122',debug=True)
