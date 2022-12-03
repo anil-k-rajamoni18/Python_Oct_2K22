@@ -1,0 +1,33 @@
+1.Create a Docker Image for Calcluator webapp
+	a. write a Dockerfile(6-7lines)
+	b. build the image.
+	c. push the image to DockerHub.
+	
+	
+
+	
+	docker run --name mysqlv1 -e MYSQL_ROOT_PASSWORD=root -p 3307:3306 -d mysql:8.0
+	docker exec -it mysqlv1 mysql -uroot -p
+	
+
+	port: 3306
+	->SHOW DATABASES
+	->USE db_name;
+	
+	->CREATE DATABASE IF NOT EXISTS db_name; 
+	
+	-> CREATE TABLE IF NOT EXISTS user(username varchar(10), age integer);
+	-> INSERT INTO user VALUES ('John',40);
+
+
+	ALTER USER 'root'@'localhost' IDENTIFIED WITH mysql_native_password BY 'root';
+	
+	CREATE USER 'akr'@'localhost' IDENTIFIED WITH authentication_plugin BY 'akr18';
+	
+	CREATE USER 'akr'@'localhost' IDENTIFIED WITH mysql_native_password BY 'akr18';
+	
+	GRANT PRIVILEGE ON database.user TO 'akr'@'localhost';
+	
+	GRANT ALL PRIVILEGES ON *.* TO 'akr'@'localhost' WITH GRANT OPTION;
+	
+	SELECT user,authentication_string,plugin,host FROM mysql.user;
