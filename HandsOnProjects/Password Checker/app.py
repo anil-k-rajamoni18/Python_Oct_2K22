@@ -11,6 +11,11 @@ app = Flask(__name__)
 def home_page():
 	return render_template('home.html',data='Hey Hi Im from BackEnd Flask')
 
+
+@app.route("/home")
+def main_page():
+	return render_template('index.html')
+
 @app.route('/random',methods=['POST'])
 def random_method():
 	if request.method=='POST':

@@ -49,5 +49,23 @@ def deletFoodItem(id):
       return {"data": f"deleted record with count {res.deleted_count} {res.acknowledged}"}
     else:
       return {"data":"no record with id"}
+
+@app.route("/foods/<id>",methods=["PUT"])
+def updateFoodItem(id):
+  if request.method == "PUT":
+    data = mycoll.find_one({"_id":int(id)})
+    if data:
+      responseData = request.get_json()
+      filter = {"_id":int(id)}
+      new_values = {"$set":responseData}
+      returnResponse = mycoll.update_one(filter,new_values)
+      return {"data":returnResponse.acknowledged}
+
+    else:
+      return {"data": "no record with id."}
+
+
+
+
 if __name__ == '__main__':
   app.run(port='1122',debug=True)

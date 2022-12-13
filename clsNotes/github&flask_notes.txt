@@ -61,7 +61,7 @@
 		- functions 
 		- modules & packages 
 		- Class & Objects( decorators)
-		- API's (requests)
+		- API's (requests,methos = GET POST PUT DELETE)
 		- WEB (how web works)
 		
 	##STEP_1 : Create a virtual env
@@ -92,12 +92,4 @@
 	
 		python filename.py
 				
-				
-				
-				
-	##STEPS TO DEPLOY CODE ON HEROKU CLOUD PLATFORM..
-		step1: Go to https://www.heroku.com/
-				create a free account.
-				
-		
-	
+			
